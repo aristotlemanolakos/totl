@@ -1,6 +1,6 @@
 #📝 Totl is a quick script that makes basic website templates
 
-Totl isn't revolutionary and similar dev tools probably (they do) already exist. I wanted a faster way to start projects and make the folders and the HTML, CSS, & JS files that went along with it. Totl is a simple tool that simplifies that process. 
+Totl isn't revolutionary and similar dev tools probably already exist (they do). I wanted a faster way to start projects and make the folders and the HTML, CSS, & JS files that went along with it. Totl is a simple tool that simplifies that process. 
 
 ## Install
 
