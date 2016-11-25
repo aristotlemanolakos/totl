@@ -30,7 +30,7 @@ cat > index.html <<- EOM
     <script src="js/app.js"></script>
   </head>
   <body>
-
+  	<h1>Welcome to: $text</h1>
   </body>
 </html>
 EOM
