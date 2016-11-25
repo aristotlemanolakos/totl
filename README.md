@@ -1,4 +1,6 @@
-# totl
+# Totl 📝
+
+## Totl is a runnable template script for basic websites.
 
 Download Totl to your script folder.
 
