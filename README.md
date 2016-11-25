@@ -6,7 +6,7 @@ Totl isn't revolutionary and similar dev tools probably already exist (they do).
 
 Download Totl to your script folder.
 
-`$ curl -o https://raw.githubusercontent.com/aristotlemanolakos/totl/master/totl.sh`
+`$ curl -O https://raw.githubusercontent.com/aristotlemanolakos/totl/master/totl.sh`
 
 If a new directory is made, make sure to include path. 
 
