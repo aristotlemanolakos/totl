@@ -1,7 +1,9 @@
 # totl
 
-Go to home directory (or where you put other scripts) and export path.
+Download Totl to your script folder.
 
-``` bash
-export PATH=$PATH:
-```
+`$ curl -o totl.sh https://raw.githubusercontent.com/aristotlemanolakos/totl/master/totl.sh`
+
+If a new directory is made, make sure to include path. 
+
+`$ export PATH=$PATH:`
