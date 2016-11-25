@@ -1,6 +1,8 @@
-# Totl 📝
+#📝 Totl is a runnable script for basic website tempaltes
 
-## Totl is a runnable template script for basic websites.
+Totl isn't revolutionary and similar dev tools probably already exists. I wanted a faster way to project folders the HTML, CSS, & JS files that went along with it. Totl is a simple tool that simplifies that process. 
+
+## Install
 
 Download Totl to your script folder.
 
