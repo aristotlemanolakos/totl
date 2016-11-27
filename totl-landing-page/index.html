@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>totl-landing-page</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+
+<body>
+    <h1 style="padding-top: 0;margin-top: 0">Totl is a quick script that makes basic website templates 📝</h1>
+
+    <h2><a href="#">⚡ Install</a></h2>
+    <p>Paste that at a Terminal prompt</p>
+    <pre style="margin-top: 0px;"><code id="selectable" onclick="selectText(this)">curl -O https://raw.githubusercontent.com/aristotlemanolakos/totl/master/totl.sh</code></pre>
+    <p>Make sure to update $PATH</p>
+    <pre style="margin-top: 0px;"><code id="selectable" onclick="selectText(this)">export PATH=$PATH:</code></pre>
+
+    <h2><a href="#">🔑 About</a></h2>
+    <p>Totl isn't revolutionary and similar dev tools probably already exist (they do). I wanted a faster way to start projects and make the folders and the HTML, CSS, & JS files that went along with it. Totl is a simple tool that simplifies that process.</p>
+
+    <h2><a href="#">🛠 Future Builds</a></h2>
+    <ul>
+        <li>Option to quick-install popular frontend frameworks like <a href="http://getbootstrap.com/">Bootstrap</a>, <a href="http://bulma.io/">Bulma</a>, <a href="https://milligram.github.io/">Miligram</a>, <a href="http://getskeleton.com/">Skeleton</a>, <a href="http://purecss.io/">Pure</a>, <a href="http://semantic-ui.com/">Semantic UI</a>, <a href="http://materializecss.com/">Materialize</a></li>
+        <li>Templates of common types of websites and boilerplate code snippets</li>
+        <li>Local server for static website development</li>
+    </ul>
+
+    <h2><a href="#">🚀 Version History</a></h2>
+    <ul>
+        <li><a href="https://github.com/aristotlemanolakos/totl/commits/master">0.01 - Current build</a></li>
+    </ul>
+
+    <!--FOOTER THO -->
+    <h4 style="text-align: center;font-weight: 600">Made with <span style="color: red;">❤</span> by <a href="http://stotle.me">Aristotle</a></h4>
+
+    <script>
+        function selectText(elem) {
+            if (document.selection) {
+                var range = document.body.createTextRange();
+                range.moveToElementText(elem);
+                range.select();
+            } else if (window.getSelection) {
+                var range = document.createRange();
+                range.selectNode(elem);
+                window.getSelection().addRange(range);
+            }
+        }
+    </script>
+
+</body>
+
+</html>
