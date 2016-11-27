@@ -13,6 +13,8 @@ If a new directory is made, make sure to include path.
 
 `$ export PATH=$PATH:`
 
+`alias totl='bash  ~/scripts/totl.sh'`
+
 *Let me figure out how to shell script a little better and I'll be back later...*
 
 ##End Notes
