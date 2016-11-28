@@ -19,7 +19,7 @@ If a new directory is made, make sure to include path.
 
 ##End Notes
 
-#### Future Releases
+#### Future Builds
 + Option to quick-install popular frontend frameworks like [Bootstrap](http://getbootstrap.com/), [Bulma](http://bulma.io/), [Miligram](https://milligram.github.io/), [Skeleton](http://getskeleton.com/), [Pure](http://purecss.io/), [Semantic UI](http://semantic-ui.com/), [Materialize](http://materializecss.com/)
 + Templates of common types of websites and boilerplate code snippets
 + Local server for static website development
