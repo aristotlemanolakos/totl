@@ -142,7 +142,7 @@ li{
 	font-size: 12pt;
 	margin-top: 0;
 	line-height: 1.5;
-	//list-style-type: circle;
+	list-style-type: square;
 	opacity: .9;
 }
 
