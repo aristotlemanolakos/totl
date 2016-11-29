@@ -37,11 +37,13 @@ h2{
 	font-family: "Montserrat", sans-serif;
 	letter-spacing: normal;
 	font-size: 20pt;
+	//text-transform: lowercase;
 }
 
 h3{
 	line-height: 1.5;
 	margin-top: 0;
+	opacity: .9;
 }
 
 h4{
@@ -56,38 +58,38 @@ h4{
 #app{
 	//border: solid white;
 //border-width: 2px;
-//border-radius: .8em;
-//z-index: 40000;
-//padding: 1em 1em 0.5em 1em;
-//background-color: rgba(255, 255, 255, 0.12);
-//margin-bottom: 1em;
+border-radius: .8em;
+z-index: 40000;
+padding: 1em 1em 0.5em 1em;
+background-color: rgba(255, 255, 255, 0.12);
+margin-bottom: 1em;
 
 }
 
 
 a:hover {
   color: white;
-  opacity: .7;
+  opacity: .8;
 }
 
-.install:before{
+.install:after{
 	content: "⚡";
-	margin-right: 6px;
+	margin-left: 8px;
 }
 
-.about:before{
+.about:after{
 	content: "🔑";
-	margin-right: 6px;
+	margin-left: 8px;
 }
 
-.future:before{
+.future:after{
 	content: "🛠";
-	margin-right: 6px;
+	margin-left: 8px;
 }
 
-.version:before{
+.version:after{
 	content: "🚀";
-	margin-right: 6px;
+	margin-left: 8px;
 }
 
 a{
@@ -102,12 +104,17 @@ p{
 	//font-family: 'Lato';
 	font-weight: 100;
 	//padding-left: 35px;
+	opacity: .9;
 }
+
+::-moz-selection { background: rgba(0, 0, 0, 0.4); }
+::selection { background: rgba(0, 0, 0, 0.4); }
 
 pre code{
   font-family: "Monaco", "Menlo", monospace;
   font-size: 8pt;
   line-height: 1.6;
+  opacity: .8;
 
 }
 
@@ -136,6 +143,7 @@ li{
 	margin-top: 0;
 	line-height: 1.5;
 	//list-style-type: circle;
+	opacity: .9;
 }
 
 ul{
@@ -153,7 +161,7 @@ hr{
 
 .terminal-window {
   text-align: left;
-  width: 100%;
+  width: 99%;
   height: 250px;
   border-radius: 10px;
   margin: auto;
@@ -164,6 +172,13 @@ hr{
   -webkit-box-shadow: 0px 0px 14px 1px rgba(0,0,0,0.15);
 	-moz-box-shadow: 0px 0px 14px 1px rgba(0,0,0,0.15);
 	box-shadow: 0px 0px 14px 1px rgba(0,0,0,0.15);
+}
+
+.terminal-window:hover {
+
+  -webkit-box-shadow: 0px 0px 14px 1px rgba(0,0,0,0.35);
+	-moz-box-shadow: 0px 0px 14px 1px rgba(0,0,0,0.35);
+	box-shadow: 0px 0px 14px 1px rgba(0,0,0,0.35);
 }
 
 .terminal-window header {
