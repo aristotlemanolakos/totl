@@ -9,13 +9,13 @@ Download Totl to your script folder.
 
 `$ curl -O https://raw.githubusercontent.com/aristotlemanolakos/totl/master/totl.sh`
 
-If a new directory is made, make sure to include path. 
+Update `.bash_profile` with `totl` alias.
 
-`$ export PATH=$PATH:`
+`$ cd ~/ && nano .bash_profile`
 
-`alias totl='bash  ~/scripts/totl.sh'`
+Add 
 
-*Let me figure out how to shell script a little better and I'll be back later...*
+`alias totl='bash ~/[PATH_TO_SCRIPT_FOLDER]/totl.sh'`
 
 ##End Notes
 
