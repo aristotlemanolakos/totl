@@ -46,8 +46,15 @@ echo "HTML template populated..."
 # NEW STYLESHEET FILE
 mkdir style && cd style
 touch style.css
-cd ..
 echo "New stylesheet created..."
+cat > style.css <<- EOM
+*{
+  margin: 0;
+  padding: 0;
+}
+EOM
+cd ..
+echo "Stylesheet reset populated"
 
 # NEW JAVASCRIPT FILE
 mkdir js && cd js

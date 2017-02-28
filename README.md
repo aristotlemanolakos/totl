@@ -25,4 +25,5 @@ Add
 + Local server for static website development
 
 #### Current Version
-0.01
+0.02 - Added CSS reset.
+0.01 - Barebones
